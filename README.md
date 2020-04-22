@@ -2,6 +2,11 @@
 
 Simpele flexibele LEMP stack gemaakt met Docker containers.
 
+- Nginx
+- PHP
+- MariaDB
+- phpMyAdmin
+
 ## Installatie Docker (MacOS)
 
 Het makkelijkste is om dit met Homebrew te installeren:
