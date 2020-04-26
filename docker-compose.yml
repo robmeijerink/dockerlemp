@@ -39,3 +39,8 @@ services:
       PMA_PORT: 3306
     depends_on:
       - mariadb
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - 1025:1025 # smtp server
+      - 8025:8025 # web ui
